@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adlam_display</item>
+        <item>@font/baumans</item>
+        <item>@font/hepta_slab_extralight</item>
+        <item>@font/paprika</item>
+        <item>@font/righteous</item>
+    </array>
+</resources>

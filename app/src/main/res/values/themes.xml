@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme without Material or AppCompat features -->
+    <style name="Base.Theme.LatihanWidget" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.LatihanWidget" parent="Base.Theme.LatihanWidget"/>
+</resources>

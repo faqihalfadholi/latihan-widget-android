@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.LatihanWidget"
+            tools:targetApi="31">
+        <activity
+                android:name=".Control_DatePicker"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_TimePicker"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_Spinner"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_ProgressBar"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_RadioGroup"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_ToogleButton"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_Checkbox"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_ImageButton"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_AutoCompleted"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_EditText"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_TextView"
+                android:exported="false"/>
+        <activity
+                android:name=".Control_Button"
+                android:exported="false"/>
+        <activity
+                android:name=".MainActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+    </application>
+
+</manifest>

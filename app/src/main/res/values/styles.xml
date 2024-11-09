@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Gaya untuk TextView -->
+    <style name="TextViewStyle">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/adlam_display</item>
+    </style>
+
+    <!-- Gaya untuk Button -->
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorSecondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:fontFamily">@font/adlam_display</item>
+    </style>
+
+    <!-- Gaya untuk EditText -->
+    <style name="EditTextStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorBackground</item>
+        <item name="android:textColorHint">@color/colorSecondary</item>
+        <item name="android:fontFamily">@font/adlam_display</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:textColor">@color/brown</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/baumans</item>
+    </style>
+
+    <style name="ButtonSubmit">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/border_button</item>
+        <item name="android:fontFamily">@font/adlam_display</item>
+        <item name="android:text">@string/submit</item>
+    </style>
+
+    <style name="ButtonCancel">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/border_button</item>
+        <item name="android:fontFamily">@font/adlam_display</item>
+        <item name="android:text">@string/cancel</item>
+    </style>
+
+    <style name="CustomDatePicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:datePickerDialogTheme">@style/CustomDatePickerDialog</item>
+    </style>
+
+    <style name="CustomDatePickerDialog" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/colorBackground</item>
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+
+
+</resources>

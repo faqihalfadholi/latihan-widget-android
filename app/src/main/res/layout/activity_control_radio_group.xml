@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_home"
+        tools:context=".Control_RadioGroup">
+
+
+    <TextView
+            android:id="@+id/txtContoh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contoh RadioButton"
+            style="@style/TextViewStyle"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Favorit?"
+            android:textSize="30sp"
+            style="@style/TextViewStyle"
+            android:textColor="@color/purple_700"
+            android:layout_marginTop="200dp"
+            android:id="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"/>
+
+    <RadioGroup
+                android:id="@+id/radioGroup_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/textView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="16dp">
+
+            <!-- RadioButton 1 -->
+        <RadioButton
+                android:id="@+id/radio_pubg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PUBG"
+                style="@style/TextLabel"
+                android:buttonTint="@color/purple_500"
+                android:minHeight="48dp"/>
+
+            <!-- RadioButton 2 -->
+        <RadioButton
+                android:id="@+id/radio_ml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Legends"
+                style="@style/TextLabel"
+                android:buttonTint="@color/teal_700"
+                android:minHeight="48dp"/>
+
+            <!-- RadioButton 3 -->
+        <RadioButton
+                android:id="@+id/radio_roblox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Roblox"
+                style="@style/TextLabel"
+                android:buttonTint="@android:color/holo_red_light"
+                android:minHeight="48dp"/>
+        </RadioGroup>
+
+
+    <Button
+            android:id="@+id/button_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ButtonSubmit"
+            app:layout_constraintTop_toBottomOf="@id/radioGroup_game"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            app:layout_constraintHorizontal_bias="0.498"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selanjutnya"
+            style="@style/ButtonStyle"
+            android:id="@+id/btn_radiogroup"
+            android:layout_marginBottom="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Latihan Widget</string>
+    <string name="switchcompat">Switch Compat </string>
+    <string name="toggle_button">Suka Nasgor?</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="prompt_food">Pilih makanan favorit Anda</string>
+    <string name="prompt_planet">Pilih tempat tinggal Anda</string>
+    <string name="waktu_yang_dipilih">Waktu yang dipilih:</string>
+    <string-array name="food_options">
+        <item>Baca</item>
+        <item>Berenang</item>
+        <item>Futsal</item>
+        <item>Ngoding</item>
+    </string-array>
+
+</resources>
